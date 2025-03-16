@@ -1,6 +1,6 @@
 getgenv().ConfigsKaitun = {
 	["Safe Mode"] = false, -- Will be pass all anti cheat (but slow farm)
-	
+
 	["Melee"] = {
 		["Death Step"] = true,
 		["Electric Claw"] = true,
@@ -45,8 +45,12 @@ getgenv().ConfigsKaitun = {
 		["Devil Fruits"] = true,
 
 		["Configs"] = {
-			["Selected All Sword"] = true,
-			["Select Sword"] = {"Saber","Cursed Dual Katana"},
+			["Selected All Sword"] = false,
+			["Select Sword"] = {
+				"Saber",
+				"Cursed Dual Katana",
+				"Shark Anchor"
+			},
 		}
 	},
 
@@ -68,6 +72,10 @@ getgenv().ConfigsKaitun = {
 			"Dough-Dough",
 			"Dragon-Dragon"
 		},
+		["Not Open Door Fruit"] = {
+			"Dough-Dough",
+			"Dragon-Dragon"
+		}
 	},
 
 	["Quest"] = {
