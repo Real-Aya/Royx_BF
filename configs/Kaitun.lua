@@ -1,6 +1,7 @@
 getgenv().ConfigsKaitun = {
 	["Safe Mode"] = false, -- Will be pass all anti cheat (but slow farm)
 
+	["Berry Collect"] = true,
 	["Melee"] = {
 		["Death Step"] = true,
 		["Electric Claw"] = true,
@@ -85,7 +86,9 @@ getgenv().ConfigsKaitun = {
 		["Dough Mirror"] = true,
 		["Shark Anchor"] = {
 			["Enable"] = true,
-			["Money"] = 25_000_000,
+			["Level"] = 2100, -- Level Should More Than This Will Do
+			["MaxMoney"] = 25_000_000,
+			["MinMoney"] = 22_000_000,
 		},
 	},
 
