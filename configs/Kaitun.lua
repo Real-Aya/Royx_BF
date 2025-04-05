@@ -80,6 +80,8 @@ getgenv().ConfigsKaitun = {
 	},
 
 	["Quest"] = {
+		["Sea3Hop"] = true,
+		
 		["Rainbow Haki"] = true,
 		["Pull Lever"] = true,
 		["Musketeer Hat"] = true,
@@ -101,5 +103,8 @@ getgenv().ConfigsKaitun = {
 		["Booster FPS"] = false,
 		["Lock FPS"] = 240,
 		["AFK Timeout"] = 150,
+		
+		["Add/Accept Friends"] = true,
+		["Auto Chat"] = true,
 	},
 }
